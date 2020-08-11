@@ -1,3 +1,5 @@
+
+// Function for Play and Pause 
 $(function() {
     $(".carousel").carousel( { interval:2000 } );
     $("#carouselButton").click(function(){
@@ -12,3 +14,20 @@ $(function() {
         }
     });
 });
+
+//-----Reserve Button------
+$(function(){
+   $("#reserveButton").click(function(){
+        $("#reserveModal").modal();
+   });
+
+});
+
+// -------Pause Button------
+$(function(){
+    $("#loginButton").click(function(){
+         $("#loginModal").modal();
+    });
+ 
+ });
+ 
