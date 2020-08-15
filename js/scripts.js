@@ -20,7 +20,7 @@ $(function() {
         $("#reserveModal").modal();
    });
 
-   // -------Pause Button------
+   // -------Login Button------
    $("#loginButton").click(() => {
     $("#loginModal").modal();
    });
