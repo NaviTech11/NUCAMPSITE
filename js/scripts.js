@@ -1,6 +1,7 @@
 
 // Function for Play and Pause 
 $(function() {
+    // -------Carousel--------
     $(".carousel").carousel( { interval:2000 } );
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
@@ -13,21 +14,20 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
-});
 
-//-----Reserve Button------
-$(function(){
-   $("#reserveButton").click(function(){
+    //-----Reserve Button------
+    $("#reserveButton").click(function(){
         $("#reserveModal").modal();
+   });
+
+   // -------Pause Button------
+   $("#loginButton").click(function(){
+    $("#loginModal").modal();
    });
 
 });
 
-// -------Pause Button------
-$(function(){
-    $("#loginButton").click(function(){
-         $("#loginModal").modal();
-    });
- 
- });
- 
+
+
+
+
