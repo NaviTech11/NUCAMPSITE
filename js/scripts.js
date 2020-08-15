@@ -16,12 +16,12 @@ $(function() {
     });
 
     //-----Reserve Button------
-    $("#reserveButton").click(function(){
+    $("#reserveButton").click(() => {
         $("#reserveModal").modal();
    });
 
    // -------Pause Button------
-   $("#loginButton").click(function(){
+   $("#loginButton").click(() => {
     $("#loginModal").modal();
    });
 
